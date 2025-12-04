@@ -18,20 +18,10 @@ package:
     include:
     exclude:
     location:
-      # There are a few supported locations:
-      # 1) Github: no URL needed, just username and the name of the repo
-      #    The `subdir` field is optional, and only necessary if your
-      #    package is not in the root of the repo.
-      githubOwner: owners-username
-      githubRepo: repo-name
-      subdir: lib
-      # 2) Git: any git server should work with this
-      #    The `subdir` is optional as above
-      url: git://someurl...
-      subdir: lib
+      githubOwner: mitchellandwebb
+      githubRepo: webb-test
+      url: git@github.com:mitchellandwebb/webb-test.git
 
-
-    
 workspace:
   packageSet:
     registry: 63.9.0
